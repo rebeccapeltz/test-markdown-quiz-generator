@@ -91,3 +91,15 @@ Deploy the `/docs/` directory to GitHub pages to serve publicly on the web. Afte
 Go to Settings in your GitHub repository. Select **Pages** on the left navigation bar.  Select **Deploy from a Branch**.  Then select the **docs** directory to deploy from.
 
 ![deploy from docs directory](./app/static/deploy-to-github-pages.png)
+
+Once you've set up GitHub Pages, you can navigate to **Actions** and follow the progress of the deployment.  If the deployment is successful, you'll see the green dot as show below.
+
+![check deployment process](./app/static/github-actions.png)
+
+Return to **Settings/Pages** to find the link to the deployed web site.
+
+![visit deployed website](./app/static/ghpages-visit-site.png)
+
+The **index.html** will provide links to available quizzes.
+
+![deployed website](./app/static/deployed-website.png)
