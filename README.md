@@ -81,3 +81,13 @@ This is almost same as `quiz-generator-local.bat`. The only difference is, this 
 This is a batch file that simply executes `python quiz-generator.py embed` in this way the quizzes will be generated without including any external library, it is assumed that it will be included in another Web as (Embedded).
 
 The resulting quizzes will have the same name of the markdown file but with their .html extension, they will be created in the `./docs/` folder.
+
+### Deploy GitHub Pages
+
+Deploy the `/docs/` directory to GitHub pages to serve publicly on the web. After creating a quiz in the `/docs/` directory, add a link to the `/docs/index.html` file.
+
+![add link to new quiz](./app/static/add-links-to-index.png)
+
+Go to Settings in your GitHub repository. Select **Pages** on the left navigation bar.  Select **Deploy from a Branch**.  Then select the **docs** directory to deploy from.
+
+![deploy from docs directory](./app/static/deploy-to-github-pages.png)
